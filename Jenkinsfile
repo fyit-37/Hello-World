@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'experiment',
-                    url: 'https://github.com/your-username/project-alpha.git'
+                    url: 'https://github.com/fyit-37/project-alpha.git'
             }
         }
 
